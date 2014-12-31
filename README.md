@@ -5,7 +5,7 @@ A brunch skeleton with flux and react and an extensive test suite.
 
 
 ## Getting started
-* Clone the project.
+* Clone the project and go into the project directory.
 * Install bower via nodejs: `npm install -g bower`
 * Install bower plugins: `bower install`
 * Install brunch via nodejs: `npm install -g brunch`
