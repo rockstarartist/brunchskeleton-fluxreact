@@ -10,5 +10,5 @@ A brunch skeleton with flux and react and an extensive test suite.
 * Install bower plugins: `bower install`
 * Install brunch via nodejs: `npm install -g brunch`
 * Install brunch plugins: `npm install`
-* Run npm start
+* Run `npm start`
 * Open `127.0.0.1:3333` and see the project run!
