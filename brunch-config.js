@@ -1,4 +1,8 @@
 exports.config = {
+    "modules": {
+        "definition" : false,
+        "wrapper" : false
+    },
     "files": {
         "stylesheets": {
             "defaultExtension": "css",
@@ -24,5 +28,6 @@ exports.config = {
         "react": {
             "harmony": true
         }
-    }
+    },
+    "sourceMaps" : false
 };
