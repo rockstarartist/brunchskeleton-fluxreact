@@ -13,8 +13,9 @@ exports.config = {
         },
         "javascripts": {
             "joinTo": {
+                "js/require.js": /^bower_components\/requirejs/,
                 "js/app.js": /^app/,
-                "js/vendor.js": /^(bower_components|vendor)/,
+                "js/vendor.js": /^(bower_components|vendor)\/(?!requirejs)/,
                 "test/js/test.js": /^test(\/|\\)(?!vendor)/,
                 "test/js/test-vendor.js": /^test(\/|\\)(?=vendor)/
             },
