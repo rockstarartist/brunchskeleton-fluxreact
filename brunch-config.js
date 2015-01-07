@@ -1,6 +1,6 @@
 exports.config = {
     "modules": {
-        "definition" : false,
+        "definition" : "amd",
         "wrapper" : false
     },
     "files": {
@@ -20,7 +20,10 @@ exports.config = {
                 "test/js/test-vendor.js": /^test(\/|\\)(?=vendor)/
             },
             "order": {
-                "before": [],
+                "before": [  
+                    'bower_components/react/react.js',
+                    'bower_components/requirejs/requirejs.js'
+                ],
                 "after": []
             }
         }
