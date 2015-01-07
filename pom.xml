@@ -34,6 +34,7 @@
                                     <arg value="-rf"/>
                                     <arg value="public"/>
                                     <arg value="node_modules"/>
+                                    <arg value="bower_components"/>
                                 </exec>
                                 <exec dir="${basedir}" executable="mkdir">
                                     <arg value="public"/>
