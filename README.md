@@ -1,3 +1,6 @@
+#*DEPRECATED PROJECT*
+####Utilizing `require.js` with `brunch`, and other 3rd party libraries has been very meddlesome. The problem has been more of a `require.js` issue and not so much the 3rd party libraries and `brunch`. I would highly recommend using `brunch` for quick project startup, it is very easy to use and configure. You may wish to investigate using `browserify` with `brunch`, and possibly avoid `require.js`.
+
 brunchskeleton-fluxreact
 ========================
 
